@@ -235,7 +235,7 @@ def pantalla_principal():
     global pantalla          
     pantalla = Tk()
     pantalla.geometry("300x250")  
-    pantalla.title("Aprende e Ingenia")       
+    pantalla.title("Detección de rostro e inicio de sesión")       
     Label(text = "Login Inteligente", bg = "gray", width = "300", height = "2", font = ("Verdana", 13)).pack()
     
 
