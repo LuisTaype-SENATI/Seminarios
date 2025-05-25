@@ -11,11 +11,10 @@ X = np.array([
 # 0 = no hipertensión y 1 = hipertensión
 y = np.array([0, 1, 0, 1, 0, 1])  
 
-# Escalar características
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Crear modelo simple con 3 capas densas
+# Modelo simple con 3 capas
 model = Sequential([
     Dense(8, activation='relu', input_shape=(3,)),
     Dense(4, activation='relu'),
