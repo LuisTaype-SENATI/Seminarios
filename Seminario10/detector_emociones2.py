@@ -47,7 +47,7 @@ while True:
         cv2.putText(frame, texto, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 2)
 
     cv2.imshow("Detector de Emociones", frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('.'):
         break
 
 camara.release()
